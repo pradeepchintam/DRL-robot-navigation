@@ -77,6 +77,12 @@ $ cd ~/DRL-robot-navigation/TD3
 $ tensorboard --logdir runs
 ```
 
+To Start the Gazebo view:
+
+```shell
+$ rosrun gazebo_ros gazebo
+```
+
 To kill the training process:
 ```shell
 $ killall -9 rosout roslaunch rosmaster gzserver nodelet robot_state_publisher gzclient python python3
